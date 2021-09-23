@@ -9,7 +9,6 @@
     content: "";
     display: table;
     clear: both;
-
 }
 
 
@@ -19,6 +18,54 @@
 
 
 /* HEADER */
+
+
+.header_container{
+    display: flex;
+
+}
+
+.fcont_left{
+    display: flex;
+    width: 15%;
+    background-color: black;
+    align-items: center;
+}
+
+.logo_container{
+    width: 70%;
+    padding-left: 5px;
+
+}
+.fcont_right{
+    width: 85%;
+    display: flex;
+    background-color: #080B12;
+    color: #EBEBEC;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bottom_container{
+    border: 1px solid #45484D;
+    border-radius: 30px;
+    font-size: 3px;
+    padding: 1px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* MAIN */
 
