@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* UTILITY CLASS */
+
+
+
+
+
+
+
+
+
+/* HEADER */
+
+/* MAIN */
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+
+/*******************
+        DEBUG
+****************** */
+
+
+#site_header .debug {
+    display: flex;
+    width: 80%;
+    height: 200px;
+    background-color: cadetblue;
+
+}
+
+.footer_container .debug{
+    display: flex;
+    justify-content: flex-end;
+}
