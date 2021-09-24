@@ -66,6 +66,7 @@
 .debug main{
     background-color: lightseagreen;
     height: calc(100vh - 100px);
+    display: flex;
     
 }
 
@@ -90,13 +91,27 @@
    
 }
 
+
+/* CONTENITORE CENTRALE */
+
+
 .debug .main_container{
-    background-color: magenta;
+    background-color: blue;
     height: 100%;
-    width: calc(100% -250px);
+    width: calc(100% - 250px);
+   
 }
 
+.row{
+    
+}
 
+.cont{
+    height: 250px;
+    width: calc(100% / 4);
+    background-color: orange;
+    float: left;
+}
 
 
 
