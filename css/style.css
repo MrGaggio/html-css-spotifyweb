@@ -20,8 +20,15 @@ body {
 }
 
 
+.img{
+    width: auto;
+    height: 40px;
+    padding: 5px 0;
+}
 
-
+h1, h2, h3, h4, h5{
+    color: white;
+}
 
 
 /* MAIN */
@@ -42,19 +49,26 @@ main {
     float: left;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 10px;
 }
 
 .up_container {
-    background-color: mediumorchid;
+    display: flex;
+    flex-direction: column;
     height: 500px;
+}
+
+.house, .search, .libreria{
+display: flex;
+align-items: center;
+font-size: small;
+color: #646464;
 }
 
 .logo {
     width: auto;
-    height: 75px;
-    padding: 15px 15px;
-
-
+    height: 80px;
+    padding: 15px 0;
 }
 
 .bottom_container {
