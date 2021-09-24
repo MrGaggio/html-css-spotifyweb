@@ -1,11 +1,11 @@
 /* UTILITY CLASS */
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -51,8 +51,9 @@
         DEBUG
 ****************** */
 
-.debug body{
+.debug body {
     height: 100vh;
+    overflow: hidden;
 }
 
 
@@ -63,54 +64,65 @@
 /* MAIN */
 
 
-.debug main{
+.debug main {
     background-color: lightseagreen;
     height: calc(100vh - 100px);
     display: flex;
-    
+
 }
 
 
-.debug .sidebar{
+.debug .sidebar {
     background-color: lime;
     width: 250px;
     height: 100%;
     display: flex;
+    float: left;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.debug .up_container{
+.debug .up_container {
     background-color: mediumorchid;
     height: 300px;
-  } 
+}
 
-.debug .bottom_container{
+.debug .bottom_container {
     background-color: mediumorchid;
     height: 100px;
-   
+
 }
 
 
 /* CONTENITORE CENTRALE */
 
 
-.debug .main_container{
+.debug .main_container {
     background-color: blue;
     height: 100%;
     width: calc(100% - 250px);
-   
-}
-
-.row{
-    
-}
-
-.cont{
-    height: 250px;
-    width: calc(100% / 4);
-    background-color: orange;
     float: left;
+    overflow-y: auto;
+
+}
+
+.contenuto {
+    margin: 15px auto;
+
+}
+
+.row {
+    margin: 10px 8px;
+}
+
+
+.cont {
+    width: calc(100% / 4);
+    height: 250px;
+    background-color: orange;
+    padding: 5px 3px;
+    float: left;
+
 }
 
 
@@ -119,7 +131,7 @@
 
 /* FOOTER */
 
-.debug footer{
+.debug footer {
     height: 100px;
     background-color: lightgrey;
 }
