@@ -155,7 +155,42 @@ main {
 footer {
     height: 100px;
     background-color: #282828;
+    width: 100%;
 }
+
+.site_footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f_left{
+    width: 260px;
+    padding: 25px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sinister_wrap{
+    flex-basis: 30%;
+
+    
+}
+.sinister{
+    width: 80%;
+    height:auto;
+}
+
+.far{
+    color: #717171;
+    margin-right: 10px;
+}
+
+.heart_cont{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 35%;
+}
+
 
 
 
