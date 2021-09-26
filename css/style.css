@@ -33,7 +33,7 @@ body {
 .f_right .fas{
     color: #FFFFFF;
     font-size: 14px;
-    margin-right: 25px;
+    margin-right: 20px;
 }
 
 .middle_up .far{
@@ -187,7 +187,7 @@ footer {
 }
 
 .f_left{
-    width: 17%;
+    width: 250px;
     padding: 25px 10px;
     display: flex;
     align-items: center;
@@ -212,7 +212,7 @@ footer {
 /* Footer middle side UP */
 
 .f_middle{
-    width: 66%;
+    width: calc(100% - 500px);
     display: flex;
     flex-direction: column;
 }
@@ -264,7 +264,7 @@ footer {
 /* Footer right */
 
 .f_right{
-    width: 17%;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -280,7 +280,7 @@ footer {
     border: 2px solid white;
 }
 .line_grey{
-    width: 120px;
+    width: 90px;
     height: 1px;
     border: 2px solid #5A5A5A;
 }
