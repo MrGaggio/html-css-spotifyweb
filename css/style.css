@@ -72,16 +72,19 @@ main {
     float: left;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
+/* UP CONTAINER */
 
 .up_container {
     display: flex;
     flex-direction: column;
-    height: 550px;
+    height: 500px;
 }
 .house,.search,.libreria,
-.new, .download {
+.new, .download, .profile {
     display: flex;
     align-items: center;
     font-size: small;
@@ -100,11 +103,21 @@ main {
 
 
 .bottom_container {
-    height: 100px;
+    height: 150px;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 10px;
 }
 
+.Bottom_container hr{
+    border-top: 1px solid #2A2A2A;
+    margin: 5px 0 10px 0;
+}
+
+.profile{
+    margin-top: 10px;
+}
 
 
 /* CONTENITORE CENTRALE */
@@ -128,7 +141,6 @@ main {
     margin: 10px 8px;
 }
 
-
 .cont {
     width: calc(100% / 4);
     height: 250px;
@@ -138,14 +150,14 @@ main {
 }
 
 
-
-
 /* FOOTER */
 
 footer {
     height: 100px;
-    background-color: lightgrey;
+    background-color: #282828;
 }
+
+
 
 
 
