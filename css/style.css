@@ -19,6 +19,28 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.far{
+    color: #717171;
+    margin-right: 10px;
+}
+
+.middle_up .fas{
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-right: 30px;
+}
+
+.f_right .fas{
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-right: 25px;
+}
+
+.middle_up .far{
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-right: 25px;
+}
 
 .img {
     width: auto;
@@ -129,12 +151,10 @@ main {
     width: calc(100% - 250px);
     float: left;
     overflow-y: auto;
-
 }
 
 .contenuto {
     margin: 15px auto;
-
 }
 
 .row {
@@ -167,7 +187,7 @@ footer {
 }
 
 .f_left{
-    width: 25%;
+    width: 17%;
     padding: 25px 10px;
     display: flex;
     align-items: center;
@@ -183,21 +203,16 @@ footer {
     height:auto;
 }
 
-.far{
-    color: #717171;
-    margin-right: 10px;
-}
-
 .heart_cont{
     display: flex;
     justify-content: flex-end;
     flex-basis: 35%;
 }
 
-/* Footer middle side */
+/* Footer middle side UP */
 
 .f_middle{
-    width: 50%;
+    width: 66%;
     display: flex;
     flex-direction: column;
 }
@@ -206,29 +221,72 @@ footer {
     display: flex;
     justify-content: center;
     align-items: baseline;
-    padding-top: 10px;
-}
-
-.middle_up .fas{
-    color: #FFFFFF;
-    font-size: 22px;
-    margin-right: 25px;
-}
-
-.middle_up .far{
-    color: #FFFFFF;
-    font-size: 32px;
-    margin-right: 25px;
+    padding-top: 15px;
 }
 
 
-.f_right{
-    width: 25%;
+/* Footer middle side Bottom */
+
+
+.middle_bottom{
+    display: flex;
+    flex-basis: 60%;
+    align-items: center;
+    justify-content: center;
+
+
 }
 
-.middle_up{
+.bottom_middle{
     display: flex;
 }
+
+.white{
+    width: 100px;
+    height: 1px;
+    border: 2px solid #C1C1C1;
+    margin-left: 20px;
+}
+
+.grey{
+    width: 350px;
+    height: 1px;
+    border: 2px solid #5A5A5A;
+    margin-right: 20px;
+}
+
+.middle_bottom p{
+    color: #DFDFDF;
+    font-size: small;
+}
+
+
+/* Footer right */
+
+.f_right{
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    display: flex;
+}
+
+.line_white{
+    width: 25px;
+    height: 1px;
+    border: 2px solid white;
+}
+.line_grey{
+    width: 120px;
+    height: 1px;
+    border: 2px solid #5A5A5A;
+}
+
+
+
 
 
 
