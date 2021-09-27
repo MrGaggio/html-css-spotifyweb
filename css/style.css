@@ -77,17 +77,19 @@ h4, h5 {
 ul {
     list-style: none;
     margin-top: 20px;
+    font-weight: 600;
 }
 
 .sidebar a {
     text-decoration: none;
     line-height: 30px;
     color: #646464;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .up_container p {
     margin-left: 10px;
+    font-weight: 600;
 }
 
 /* MAIN */
