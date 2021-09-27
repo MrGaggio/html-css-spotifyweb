@@ -234,14 +234,15 @@ nav{
 .row {
     margin: 10px 8px;
     display: flex;
-    justify-content: space-between;
+  
 
 }
 
 .img_wrap {
-    width: calc((100% / 6)-20px);
-    margin-right: 20px;
+    width: calc(100% / 6);
     position: relative;
+    margin-right: 20px;
+   
     
 }
 
@@ -257,14 +258,13 @@ nav{
 .immagine{
     width: 100%;
     height: auto;
-    
-  
 }
 
 .testo{
    text-align: center;
    margin: auto;
 }
+
 
 
 
