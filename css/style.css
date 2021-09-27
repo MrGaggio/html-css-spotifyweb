@@ -15,10 +15,29 @@
 
 body {
     height: 100vh;
+    background-color: black;
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
 }
 
+ul#menu li{
+    display: inline;
+}
+
+ul#menu a{
+    text-decoration: none;
+    line-height: 30px;
+    color: #646464;
+    font-size: small;
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+ul#menu hr{
+    border-bottom: 2px solid #9AE22D;
+    width: 35px;
+    margin-left: 30px;
+}
 .far{
     color: #717171;
     margin-right: 10px;
@@ -60,7 +79,7 @@ ul {
     margin-top: 20px;
 }
 
-a {
+.sidebar a {
     text-decoration: none;
     line-height: 30px;
     color: #646464;
@@ -73,13 +92,6 @@ a {
 
 /* MAIN */
 
-
-main {
-    height: calc(100vh - 100px);
-    display: flex;
-
-}
-
 .logo {
     width: auto;
     height: 75px;
@@ -91,12 +103,28 @@ main {
     width: 250px;
     height: 100%;
     display: flex;
-    float: left;
     flex-direction: column;
     justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
 }
+
+main {
+    height: calc(100vh - 100px);
+    display: flex;
+}
+
+.main_container{
+    margin-top: 90px;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
 
 /* UP CONTAINER */
 
