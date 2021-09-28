@@ -190,6 +190,7 @@ ul {
 main {
     height: calc(100vh - 100px);
     display: flex;
+   
 }
 
 nav{
@@ -234,16 +235,26 @@ nav{
 .row {
     margin: 10px 8px;
     display: flex;
-  
+}
 
+.container:hover .play1{
+    visibility: visible;
+}
+
+.container{
+    position: relative;
 }
 
 .img_wrap {
-    width: calc(100% / 6);
-    position: relative;
+    width: calc(16.666% - 20px);
     margin-right: 20px;
-   
-    
+}
+
+.circular_wrap{
+    width: calc(16,666% - 20px);
+    margin-right: 20px;
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .play1{
