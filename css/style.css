@@ -20,6 +20,29 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/* Media */
+
+
+
+@media screen and (min-width:568px) {
+    .img_wrap {
+      width: calc(100% / 2);
+    }
+  }
+  
+@media screen and (min-width:768px) {
+    .img_wrap {
+      width: calc(100% / 4);
+    }
+  }
+  
+@media screen and (min-width:1024px) {
+    .img_wrap {
+      width: calc(100% / 6);
+    }
+  }
+
 .white{
     color: white;
 }
@@ -140,9 +163,7 @@ ul {
 
 /* UP CONTAINER */
 
-.sidebar{
-    overflow: hidden;
-}
+
 .up_container {
     display: flex;
     flex-direction: column;
@@ -507,3 +528,6 @@ footer {
     height: 100px;
     background-color: lightgrey;
 }
+
+
+
