@@ -26,19 +26,19 @@ body {
 
 
 @media screen and (min-width:568px) {
-    .img_wrap {
+    .x {
       width: calc(100% / 2);
     }
   }
   
 @media screen and (min-width:768px) {
-    .img_wrap {
+    .x {
       width: calc(100% / 4);
     }
   }
   
 @media screen and (min-width:1024px) {
-    .img_wrap {
+    .x {
       width: calc(100% / 6);
     }
   }
@@ -269,6 +269,7 @@ nav{
 .img_wrap {
     width: calc(16.666% - 20px);
     margin-right: 20px;
+    
 }
 
 .circular_wrap{
